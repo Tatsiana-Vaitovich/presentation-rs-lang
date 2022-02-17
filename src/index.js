@@ -8,6 +8,7 @@ import 'reveal.js/dist/reset.css';
 import 'reveal.js/dist/reveal.css';
 import 'reveal.js/dist/theme/solarized.css';
 import 'reveal.js/plugin/highlight/monokai.css';
+import './styles/style.scss'
 
 
 let deck = new Reveal({
