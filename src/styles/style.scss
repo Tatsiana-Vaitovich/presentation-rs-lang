@@ -1,0 +1,47 @@
+$background-color: #17181c;
+$color-active: #3fcc59;
+$color-light: #fff;
+$color-dark: #333;
+$color: #70d6ff; 
+$font-size--big: 5rem;
+$font-size--middle: 3rem;
+$font-size--normal: 2 rem;
+$font-family: "ptsans", Helvetica, Arial, sans-serif;
+
+
+@mixin flex($align: center, $justify: space-between) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin title() {
+  font-family: $font-family;
+  font-size: $font-size--big;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 7rem;
+}
+
+@mixin text() {
+  font-size: $font-size--normal;
+  font-weight: bold;
+  line-height: 4rem;
+}
+
+/* используем
+ .block {
+	@include btn();
+}
+*/
+
+// #mainTitle {
+//   @include title();
+//   color: $color;
+// }
+
+// #quote {
+//   @include text();
+//   color: $color-active;
+//   font-style: italic;
+// }
